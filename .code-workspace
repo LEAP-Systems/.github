@@ -20,9 +20,11 @@
     },
     "settings": {
       // autoformatting config for python
-      "python.formatting.blackPath": "black",
-      "python.formatting.blackArgs": [
-        "--line-length=100"
+      "python.formatting.provider": "autopep8",
+      "python.formatting.autopep8Args": [
+        "--ignore=E701",
+        "--max-line-length",
+        "120"
       ],
       // linting config for python
       "python.linting.enabled": true,
