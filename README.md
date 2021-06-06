@@ -2,6 +2,8 @@
 
 Modified: 2021-06
 
+![img](docs/img/LEAP_INS_WHITE.png)
+
 Source control for all development tooling and templating
 
 ## Python
